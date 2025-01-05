@@ -1,0 +1,23 @@
+# Ігнорування папки з модулями
+node_modules/
+
+# Ігнорування згенерованих файлів
+dist/
+*.tsbuildinfo
+
+# Ігнорування лог-файлів
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Статичні ресурси або конфігурації
+public/
+*.config.js
+
+# Ігнорування тестів (якщо потрібно)
+tests/
+*.spec.ts
+*.test.ts
+
+# Кеш ESLint (якщо використовується)
+.eslintcache
